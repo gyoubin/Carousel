@@ -59,7 +59,7 @@
 
             carouselUi.insertBefore(lastItem,items[0]);
             currentItem.classList.remove("now");
-            last.classList.add("now");   
+            lastItem.classList.add("now");   
         }
         changeTransform();
     }
