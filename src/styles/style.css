@@ -71,7 +71,7 @@
     transition: all 0.5s;
 }
 
-.carousel-item div{
+.carousel-item label{
     text-align: center;
     line-height: 348px;
     justify-content: center;
