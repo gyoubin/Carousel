@@ -1,6 +1,7 @@
 (() => {
     const carouselUi = document.querySelector(".carousel-list");
     const imageInput = document.querySelector("#image-upload-input");
+    const imageInsert = document.querySelector("#del");
     const prevButton = document.querySelector(".prev-btn");
     const nextButton = document.querySelector(".next-btn");
 
@@ -91,6 +92,7 @@
                 const imgUrl = e.target.result;
                 carouselUi.insertBefore(createTag(imgUrl), items[0]);
                 changeTransform();
+                imageInsert.remove();
             }
             reader.readAsDataURL(value.files[0]);
         }
