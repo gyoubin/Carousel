@@ -1,5 +1,9 @@
 @import 'reset.css';
 
+.dis-none{
+    display: none;
+}
+
 .util-ir{
     display: block;
     overflow: hidden;
@@ -72,6 +76,7 @@
 }
 
 .carousel-item label{
+    display: block;
     text-align: center;
     line-height: 348px;
     justify-content: center;

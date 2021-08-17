@@ -93,6 +93,8 @@
                 carouselUi.insertBefore(createTag(imgUrl), items[0]);
                 changeTransform();
                 imageInsert.remove();
+                prevButton.classList.remove("dis-none");
+                nextButton.classList.remove("dis-none");
             }
             reader.readAsDataURL(value.files[0]);
         }
